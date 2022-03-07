@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+    padding: 0 60px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+}
+main{
+    padding: 40px 60px;
+}
+#contenedorPagina {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#contenedor-resultados{
+    margin-top: 20px;
+}
+.contacto{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    gap: 10px;
+}
+#nextPage,#pageBefore {
+    visibility: hidden;
+}
+#nextPage.visible,#pageBefore.visible {
+    visibility: visible;
+}
